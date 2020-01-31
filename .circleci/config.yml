@@ -138,7 +138,7 @@ jobs:
             echo 'Sadness, the value is not what we expected, so the workspace write/read did not work'
             exit 1
           else
-            echo 'Yay, value matches'
+            echo 'fuck yeah bitch you did it!!! 💅🏼'
             exit 0
           fi
 
