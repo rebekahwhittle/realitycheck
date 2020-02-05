@@ -17,7 +17,7 @@ resource_job_defaults: &resource_job_defaults
         command: |
           curl -k \
           "$CIRCLE_HOSTNAME/api/v1.1/project/github/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME/$CIRCLE_BUILD_NUM?\
-          circle-token=$CIRCLE_TOKEN" | \
+          circle-token=9a35746cc45532a74a82901e85ad0cb220ea6025" | \
           jq '.picard.resource_class.class' | grep $CIRCLE_JOB
 
 remote_docker_defaults: &remote_docker_defaults
